@@ -3,20 +3,25 @@ import { SiTailwindcss,SiGithub  } from "react-icons/si";
 import { SiExpress,SiPostman  ,SiReact } from "react-icons/si";
 import { FaFigma } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa";
-
+import profile from '../assets/profile.jpg'; 
 
 
 
 export default function Banner(){
     return <>
-    <div className="flex justify-center items-center text-center  ">
-        <div className=" ">
-
-         
-        <h1 className="font-bold font-mono text-2xl">I am a MERN Stack developer</h1>
+    <div className="grid grid-cols-1 sm:grid-cols-2 justify-center items-center text-center m-4 ">
+        <div>
+        <h1 className="font-bold font-mono text-2xl">I am a MERN Stack Developer.</h1>
         </div>
-        <div className="border rounded-full p-4 m-2 ">
-          <img src="../assets/starmall.jpg" alt="" />
+        <div className=" rounded-full sm:border grid grid-cols-1 sm:grid-cols-2  p-4 m-2 ">
+          <img src={profile} alt=""  className=" flex  justify-center items-center text-center h-64 hover:ring-4 rounded-full" />
+            <p className="font-mono text-xl mr-10 ">My name is 
+            <span className="font-bold"> Lagzen Thakuri.</span> 
+             <br /> <br />
+             From <span className="font-bold"> Nepal , Kathmandu.</span>
+             <br /> <br />
+            
+            </p>
         </div> 
         </div>
 

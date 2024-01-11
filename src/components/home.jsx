@@ -4,7 +4,7 @@ import Projects from "./projects";
 
 export default function Home(){
     return <>
-    <div className="bg-lightBrown h-96">
+    <div >
     <Navbar />
    <Banner/>
    <Projects/>

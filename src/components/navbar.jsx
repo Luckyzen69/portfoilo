@@ -5,7 +5,7 @@ export default function Navbar(){
     return <>
     <div className="relative cursor-default	">
 
-    <div className="justify-center flex   hover:text-red    ">
+    <div className="justify-center flex sticky  hover:text-red    ">
     {[
     ['Home', '/home'],
     ['About', '/about'],
