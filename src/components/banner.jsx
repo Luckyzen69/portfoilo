@@ -5,7 +5,7 @@ import { FaFigma } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa";
 
 
-import Projects from "./projects";
+
 
 export default function Banner(){
     return <>
@@ -13,14 +13,14 @@ export default function Banner(){
         <div className=" ">
 
          
-        <h1>I am a web developer</h1>
+        <h1 className="font-bold font-mono text-2xl">I am a MERN Stack developer</h1>
         </div>
         <div className="border rounded-full p-4 m-2 ">
-            image
+          <img src="../assets/starmall.jpg" alt="" />
         </div> 
         </div>
 
-        <div className="border rounded-full p-2 m-10   text-center">
+        <div className="border sm:rounded-full p-2 m-10   text-center">
             <p className="font-bold text-2xl  font-mono">  Skills </p>
             <div className=" space-x- justify-center  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"  >
                 <div  >
