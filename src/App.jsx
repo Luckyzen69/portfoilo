@@ -5,10 +5,12 @@ import { Route,Routes } from "react-router-dom"
 import About from "./components/about"
 import Projects from "./components/projects"
 import Contact from "./components/contact"
-
+import { useEffect,useState } from "react"
 function App() {
+ 
   return (
     <>
+    
      <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/home" element={<Home/>}/>
@@ -20,6 +22,7 @@ function App() {
      </Routes>
      
      
+    
     
     </>
   )
