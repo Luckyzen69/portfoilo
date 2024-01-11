@@ -5,7 +5,7 @@ import jobportal from "../assets/Jobportal.png"
 
 export default function Projects(){
     return <>
-    <div>
+    <div id='projects'>
        <h1 className="justify-center flex font-bold font-mono text-3xl m-2 mb-10">Projects </h1>
        <div className="grid grid-cols-1">
         <div className="border grid grid-cols-1 sm:grid-cols-2 font-mono m-2 hover:ring-2 rounded-lg">
