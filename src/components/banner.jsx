@@ -2,26 +2,30 @@ import { DiCss3 ,DiHtml5 ,DiJsBadge,DiMongodb ,DiVisualstudio,DiNodejs,DiNpm   }
 import { SiTailwindcss,SiGithub  } from "react-icons/si";
 import { SiExpress,SiPostman  ,SiReact } from "react-icons/si";
 import { FaFigma } from "react-icons/fa6";
+import { FaNodeJs } from "react-icons/fa";
+
 
 import Projects from "./projects";
 
 export default function Banner(){
     return <>
-    <div className="flex justify-center items-center text-center relative ">
-        <div className="absolute top-80 left-64">
+    <div className="flex justify-center items-center text-center  ">
+        <div className=" ">
 
-           <hr />
+         
         <h1>I am a web developer</h1>
         </div>
-        <div className="border rounded-full p-4 m-2 absolute top-40 right-10">
+        <div className="border rounded-full p-4 m-2 ">
             image
         </div> 
-        <div className="border p-2">
-            <p>my skills </p>
-            <div className="grid grid-cols-3 grid-rows-3" >
-                <div >
-                <p className="font-bold">font end</p>
-                <ul className="flex ">
+        </div>
+
+        <div className="border rounded-full p-2 m-10   text-center">
+            <p className="font-bold text-2xl  font-mono">  Skills </p>
+            <div className=" space-x- justify-center  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"  >
+                <div  >
+                <p className="font-bold font-mono text-xl">Font-End</p>
+                <ul className="flex space-x-4 justify-center ">
                     
                     <li> <SiReact/></li>
                     <li> <DiHtml5/></li>
@@ -31,20 +35,20 @@ export default function Banner(){
                 </div>
 
                 <div>
-                <p>back-end</p>
+                <p className="font-bold font-mono text-xl">Back-End</p>
 
-                <ul className="flex">
+                <ul className="flex space-x-4 justify-center ">
+                    <li > <FaNodeJs/></li>
                     <li> <SiExpress/></li>
                     <li> <DiCss3/></li>
-                    <li> <DiNodejs/></li>
                     <li> <DiNpm/></li>
                     
                 </ul>
                 </div>
                 <div>
 
-                <p>Database and others</p>
-                <ul className="flex">
+                <p className="font-bold font-mono text-xl">Database & Others</p>
+                <ul className="flex space-x-4 justify-center">
                     <li> <DiMongodb/></li>
                     <li> <SiPostman/></li>
                     <li> <DiVisualstudio/></li>
@@ -55,6 +59,6 @@ export default function Banner(){
                 </div>
             </div>
         </div>
-    </div>
+    
     </>
 }
