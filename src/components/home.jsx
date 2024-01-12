@@ -1,4 +1,5 @@
 import Banner from "./banner";
+import Contact from "./contact";
 import Navbar from "./navbar";
 import Projects from "./projects";
 import { useEffect,useState } from "react"
@@ -19,10 +20,11 @@ export default function Home(){
         setTheme(theme === "dark" ? "light" : "dark")
       }
     return <>
-    <div className="dark:bg-stone-950	 dark:text-white" >
+    <div className="dark:bg-stone-900	 dark:text-white" >
     <Navbar />
    <Banner/>
    <Projects/>
+   <Contact/>
    <button onClick={handleThemeSwitch} className="absolute top-1 right-2 text-3xl"><MdOutlineDarkMode/></button>
     </div>
     </>
