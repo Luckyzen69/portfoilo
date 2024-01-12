@@ -1,22 +1,22 @@
-
+import { Link } from "react-router-dom"
 
 export default function About(){
-    return <> <div className="relative cursor-default	">
+    return <> <div className="relative cursor-default  dark:bg-zinc-900 dark:text-white     	">
 
     <div className="justify-center flex  sticky  hover:text-red dark:bg-zinc-900 dark:text-white   ">
     {[
     ['Home', '/home'],
     ['About', '/about'],
-    ['Projects', '#projects'],
+    ['Projects', '/projects'],
     ['Blog', '/blog'],
   ].map(([title, url]) => (
-    <a href={url} className="rounded-lg px-3 py-2 text-slate-700  font-medium hover:bg-slate-100 hover:text-slate-900 dark:bg-zinc-900 dark:text-white dark:hover:text-red-500 ">{title}</a>
+    <Link to={url} key={title} className="rounded-lg px-3 py-2 text-slate-700  font-medium hover:bg-slate-100 hover:text-slate-900 dark:bg-zinc-900 dark:text-white dark:hover:text-red-500 ">{title}</Link>
   ))}
     
     </div>
     </div>
 
-    <div className="grid grid-cols-1 sm:grid-cols-2">
+    <div className="grid grid-cols-1 sm:grid-cols-2  dark:bg-zinc-900 dark:text-white ">
 
     <div className="m-2 text-center">
     <h2 className="font-bold font-mono text-xl">AIMS / GOALS  </h2>
@@ -29,7 +29,7 @@ export default function About(){
    </ul>
     </div>
 
-   <div className="m-2 text-center">
+   <div className="m-2 text-center  dark:bg-zinc-900 dark:text-white ">
     <h2 className="font-bold font-mono text-xl">Education</h2>
     <div className="vl"></div>
     <ul className="space-y-10 mt-10 font-mono">

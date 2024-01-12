@@ -23,7 +23,6 @@ export default function Home(){
     <div className="dark:bg-stone-900	 dark:text-white" >
     <Navbar />
    <Banner/>
-   <Projects/>
    <Contact/>
    <button onClick={handleThemeSwitch} className="absolute top-1 right-2 text-3xl"><MdOutlineDarkMode/></button>
     </div>
