@@ -10,3 +10,28 @@
 li{
     font-size: 24px;
 }
+.vl {
+    border-left: 2px solid grey;
+    height: 300px;
+    position: absolute;
+    left: 49%;
+    
+  }
+  @media screen and (max-width: 640px) {
+    .vl {
+     visibility: hidden;
+    }
+  }
+
+  .vb {
+    border-left: 2px solid grey;
+    height: 300px;
+    position: absolute;
+    left: 18%;
+    
+  }
+  @media screen and (max-width: 640px) {
+    .vb {
+     visibility: hidden;
+    }
+  }

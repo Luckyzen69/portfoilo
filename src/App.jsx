@@ -5,7 +5,7 @@ import { Route,Routes } from "react-router-dom"
 import About from "./components/about"
 import Projects from "./components/projects"
 import Contact from "./components/contact"
-import { useEffect,useState } from "react"
+import Blog from "./components/blog"
 function App() {
  
   return (
@@ -19,6 +19,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/projects" element={<Projects/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/blog" element={<Blog/>}/>
      </Routes>
      
      

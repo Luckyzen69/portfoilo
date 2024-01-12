@@ -26,7 +26,7 @@ export default function Banner(){
         </div>
 
         <div className="border sm:rounded-full p-2 m-10   text-center hover:ring-2">
-            <p className="font-bold text-2xl  font-mono mb-10  ">  Skills </p>
+            <p className="font-bold text-3xl  font-mono mb-10  ">  Skills </p>
             <div className=" space-x- justify-center  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"  >
                 <div  >
                 <p className="font-bold font-mono text-xl">Font-End</p>

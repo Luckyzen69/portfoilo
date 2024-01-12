@@ -31,9 +31,10 @@ export default function Projects(){
              <br /><br />
              website link 
              <br />
+             <span className='hover:underline'><a href="https://job-portal-0.netlify.app/" target='blank'>https://job-portal-0.netlify.app/</a></span>
 
              </p>
-           <a href="#"> <img src={jobportal} alt="image" key={jobportal} />
+           <a href="https://job-portal-0.netlify.app/"> <img src={jobportal} alt="image" key={jobportal} />
             </a>
             </div>
             
