@@ -1,5 +1,5 @@
 import { DiCss3 ,DiHtml5 ,DiJsBadge,DiMongodb ,DiVisualstudio,DiNodejs,DiNpm   } from "react-icons/di";
-import { SiTailwindcss,SiGithub  } from "react-icons/si";
+import { SiTailwindcss,SiGithub ,SiRedux  } from "react-icons/si";
 import { SiExpress,SiPostman  ,SiReact } from "react-icons/si";
 import { FaFigma } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa";
@@ -20,7 +20,7 @@ export default function Banner(){
              <br /> <br /> <br />
              From <span className="font-bold"> Nepal , Kathmandu.</span>
              <br /> <br /> <br />
-            Hello World...
+            Thakurizen22@gmail.com
             </p>
         </div> 
         </div>
@@ -32,10 +32,11 @@ export default function Banner(){
                 <p className="font-bold font-mono text-xl">Font-End</p>
                 <ul className="flex space-x-4 justify-center ">
                     
-                    <li> <SiReact/></li>
                     <li> <DiHtml5/></li>
-                    <li> <SiTailwindcss/></li>
+                    <li> <DiCss3/></li>
                     <li> <DiJsBadge/></li>
+                    <li> <SiReact/></li>
+                    <li> <SiTailwindcss/></li>
                 </ul>
                 </div>
 
@@ -45,8 +46,8 @@ export default function Banner(){
                 <ul className="flex space-x-4 justify-center ">
                     <li > <FaNodeJs/></li>
                     <li> <SiExpress/></li>
-                    <li> <DiCss3/></li>
                     <li> <DiNpm/></li>
+                    <li> <SiRedux /></li>
                     
                 </ul>
                 </div>
@@ -58,7 +59,7 @@ export default function Banner(){
                     <li> <SiPostman/></li>
                     <li> <DiVisualstudio/></li>
                     <li> <FaFigma/></li>
-                    <li> <SiGithub /></li>
+                    
 
                 </ul>
                 </div>
