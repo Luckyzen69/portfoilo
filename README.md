@@ -5,7 +5,7 @@
 
      Follow your dream until you got it.
 
-    <div className="grid grid-cols-1 xl:grid-cols-2 justify-center items-center text-center m-2.5  dark:bg-stone-950	 dark:text-white ">
+ <div className="grid grid-cols-1 xl:grid-cols-2 justify-center items-center text-center m-2.5  dark:bg-stone-950	 dark:text-white ">
         <div>
         <h1 className="font-bold font-mono text-2xl">I am a MERN Stack Developer.</h1>
         </div>
@@ -17,8 +17,11 @@
              From <span className="font-bold"> Nepal , Kathmandu.</span>
              <br /> <br /> <br />
             Thakurizen22@gmail.com
-                 <br /> <br />
+                  <br /> <br />
                "Great power comes with great responsibilities."
+            </p>
+        </div> 
+        </div>
             </p>
         </div> 
         </div>
