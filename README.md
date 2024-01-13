@@ -7,6 +7,7 @@
 
 
 
+<div>
 
    
         <h1 className="font-bold font-mono text-2xl">I am a MERN Stack Developer.</h1>
@@ -21,3 +22,4 @@
             </p>
 
             <p>Great power comes with great responsibilities.</p>     
+            </div>
