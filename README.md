@@ -1,8 +1,6 @@
-# React + Vite
+    This is my official pag.
+     https://www.lagzenthakuri.com.np/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    This website is made by using React and tailwind. It's  a basic website with some error which I could not solve due to lack of time.   
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+     Follow your dream until you got it.
