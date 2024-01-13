@@ -27,7 +27,7 @@ li{
     border-left: 2px solid grey;
     height: 300px;
     position: absolute;
-    left: 18%;
+    left: 16%;
     
   }
   @media screen and (max-width: 640px) {

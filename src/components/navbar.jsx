@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar(){
     return <>
-        <div className="relative cursor-default	">
+        <div className="relative cursor-default  dark:bg-stone-950	 dark:text-white	">
 
 <div className="justify-center flex  sticky  hover:text-red dark:bg-zinc-900 dark:text-white   ">
 {[

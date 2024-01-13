@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function Projects(){
     return <>
-      <div className="relative cursor-default	">
+      <div className="relative cursor-default  dark:bg-stone-950	 dark:text-white	">
 
 <div className="justify-center flex  sticky  hover:text-red dark:bg-zinc-900 dark:text-white   ">
 {[
@@ -22,7 +22,7 @@ export default function Projects(){
 </div>
 
 
-    <div id='projects' className=' dark:bg-zinc-900 dark:text-white '>
+    <div id='projects' className=' dark:bg-stone-950 dark:text-white '>
        <h1 className="justify-center flex font-bold font-mono text-3xl m-2 mb-10">Projects </h1>
        <div className="grid grid-cols-1">
         <div className="border grid grid-cols-1 sm:grid-cols-2 font-mono m-2 hover:ring-2 rounded-lg">
@@ -41,7 +41,7 @@ export default function Projects(){
              
             </div>
 
-        <div className="border  grid grid-cols-1 sm:grid-cols-2 m-2 hover:ring-2 rounded-e-lg  dark:bg-zinc-900 dark:text-white ">
+        <div className="border  grid grid-cols-1 sm:grid-cols-2 m-2 hover:ring-2 rounded-e-lg  dark:bg-stone-950 dark:text-white ">
             <p className='font-mono ml-4 '><span className='font-bold text-xl ml-4'>Job Portal </span>
             <br /><br />
              Job  portal is a 1st website which I created by using MERN basically Mongodb, Express.js , React, Node.js and Postman. It is responsive and user-friendly website. 

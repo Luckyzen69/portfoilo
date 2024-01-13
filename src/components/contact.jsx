@@ -3,7 +3,7 @@ import { FaGithub,FaYoutube,FaLinkedin ,FaInstagram  } from "react-icons/fa";
 
 export default function Contact(){
     return <>
-    <div className="justify-center text-center items-center  p-2" id="contact">
+    <div className="justify-center text-center items-center dark:bg-stone-950 dark:text-white p-2" id="contact">
         <h1 className="font-bold cursor-default">Get in Touch</h1>
         
         <div className="m-2  ">
