@@ -20,7 +20,7 @@ export default function About(){
     <div className="  pb-48  ">
 
 
-    <div className="grid grid-cols-1 sm:grid-cols-2  dark:bg-stone-950 dark:text-white  h-max">
+    <div className="grid grid-cols-1 sm:grid-cols-2  dark:bg-stone-950  h-max">
 
     <div className="m-2 text-center">
     <h2 className="font-bold font-mono text-xl">AIMS / GOALS  </h2>

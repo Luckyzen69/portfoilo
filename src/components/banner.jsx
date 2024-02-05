@@ -13,7 +13,7 @@ export default function Banner(){
         <div>
         <h1 className="font-bold font-mono text-2xl">I am a MERN Stack Developer.</h1>
         </div>
-        <div className=" rounded-full sm:border grid grid-cols-1 sm:grid-cols-2  p-4 m-2.5 hover:ring-2  dark:bg-stone-950	 dark:text-white">
+        <div className=" rounded-full sm:border grid grid-cols-1 sm:grid-cols-2  p-4 m-2.5 sm:hover:ring-2  dark:bg-stone-950	 dark:text-white">
           <img src={profile} alt=""  className=" flex  h-64 hover:ring-4 rounded-full hover:shadow-2xl  dark:bg-stone-950	" />
             <p className="font-mono text-xl mr-10 mt-4  dark:bg-stone-950	">My name is 
             <span className="font-bold"> Lagzen Thakuri.</span> 
